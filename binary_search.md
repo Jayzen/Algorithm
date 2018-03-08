@@ -1,5 +1,5 @@
+#Algorithm
 ```ruby
-# Algorithm
 class Array
   def binary_search(value)
     low = 0
