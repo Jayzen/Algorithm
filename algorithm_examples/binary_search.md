@@ -1,4 +1,5 @@
-#Algorithm
+二分查找的算法实现
+应用场景: 将需要查找的数每次和查找范围之内的中位数最比较
 ```ruby
 class Array
   def binary_search(value)
@@ -6,7 +7,7 @@ class Array
     high = self.size - 1
 
     while(low <= high) do
-      mid = low + (high - low) / 2
+      mid = low + (high - low) / 2 #如果分母是整数，那么结果也是整数，而且向下圆整
 
       if self[mid] == value
         return mid
