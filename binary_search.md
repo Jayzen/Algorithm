@@ -1,3 +1,4 @@
+```ruby
 # Algorithm
 class Array
   def binary_search(value)
@@ -18,12 +19,17 @@ class Array
     return nil 
   end
 end
+```
 
 #Realization
+```ruby
 p (1..100).to_a.binary_search(100) #99
 p (1..100).to_a.binary_search(199) #nil
+```
 
 
 #Terminology
+```ruby
 #iteration(迭代) : update the value of the variables
 #recursion(递归) : call self in the inner function
+```
